@@ -42,3 +42,8 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
+
+elaticjob:
+  zookeeper:
+    server-lists: localhost:2181
+    namespace: my-project-qinlongshi
