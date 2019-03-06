@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 //@MapperScan("com.qinlsspringboot.mapper")//将项目中对应的mapper类的路径加进来就可以了
-//在启动类上增加@EnableConfigurationProperties注解，激活自定义的配置类(重要)
+//在启动类上增加@EnableConfigurationProperties注解，激活自定义的配置类(重要) www
 @EnableConfigurationProperties
 
 //@PropertySource(value = {"classpath:/spring/*.properties","classpath:/spring/abc.properties"},
