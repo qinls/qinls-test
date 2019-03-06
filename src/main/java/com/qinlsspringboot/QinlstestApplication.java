@@ -16,7 +16,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 //@PropertySource(value = {"classpath:/spring/*.properties","classpath:/spring/abc.properties"},
 //applicationT ,"classpath:spring/user.properties"
-
+//测试
 @PropertySource(value = {"classpath:spring/applicationT.properties","classpath:spring/user.properties"},
         ignoreResourceNotFound = true, encoding = "utf-8")
 
