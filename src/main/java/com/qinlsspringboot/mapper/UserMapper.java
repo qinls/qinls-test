@@ -21,6 +21,7 @@ public interface UserMapper {
 
     int updateByPrimaryKey(User record);
 
+
     //这个方式我自己加的
     List<User> selectAllUser();
 
