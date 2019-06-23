@@ -27,6 +27,6 @@ public interface UserMapper {
 
     // 数组形式更新字段
     int updateAllById(Integer[] array);
-
+    //la我即使我
     List<User> selectByOther(List<User> users);
 }
