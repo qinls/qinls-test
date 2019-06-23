@@ -20,7 +20,7 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
-
+    //lallal
 
     //这个方式我自己加的
     List<User> selectAllUser();
