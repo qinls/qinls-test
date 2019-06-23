@@ -21,7 +21,7 @@ public interface UserMapper {
 
     int updateByPrimaryKey(User record);
     //lallal
-
+    //你有梦想吗
     //这个方式我自己加的
     List<User> selectAllUser();
 
