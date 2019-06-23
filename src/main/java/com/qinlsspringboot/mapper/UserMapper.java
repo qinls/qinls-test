@@ -20,9 +20,12 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
     //这个方式我自己加的
     List<User> selectAllUser();
 
     // 数组形式更新字段
     int updateAllById(Integer[] array);
+
+    List<User> selectByOther(List<User> users);
 }
